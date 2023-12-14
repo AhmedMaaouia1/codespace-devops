@@ -21,4 +21,6 @@ def search(path, ftype):
 
 
 if __name__ == "__main__":
-    search(*args)
+    path_value = click.prompt("Path to search for csv files", type=str)
+    ftype_value = click.prompt("Pass in the type of file", type=str)
+    search(path=path_value, ftype=ftype_value)
