@@ -21,4 +21,4 @@ def search(path, ftype):
 
 
 if __name__ == "__main__":
-    search()
+    search(*args)
